@@ -1,0 +1,19 @@
+# Debug mode
+# Only set this value to "true" if Trixkz (LoganM) tells you to do it
+debug: false
+
+mongo:
+  host: "127.0.0.1"
+  port: 27017
+  database: "Moderation"
+  auth:
+    enabled: false
+    username: "user"
+    password: "pass"
+    auth-database: "admin"
+
+# Ranks permission nodes
+rank-permission-node: "moderation.rank"
+
+# Grants permission nodes
+grant-permission-node: "moderation.grant"

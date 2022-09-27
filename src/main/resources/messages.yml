@@ -1,0 +1,76 @@
+# No permission message
+no-permission: "&cNo permission"
+
+# Player not online message
+player-not-online: "&cThe specified player is not online"
+
+# Ranks usage messages
+rank-usage:
+  - "&cUsage:"
+  - "  &c/rank"
+  - "  &c/rank create <rank name>"
+  - "  &c/rank setprefix <rank name> <prefix>"
+
+# Grants usage messages
+grant-usage: "&cUsage: /grant <player>"
+
+# Ranks messages
+rank-set-to-player: "&aYou have added a (rank) &agrant to &a&l(player) &afor &a&l(duration)"
+rank-duration-not-valid: "&cThe specified duration is not a valid duration"
+rank-created: "&aThe specified rank has been created"
+rank-removed: "&cThe specified rank has been removed"
+rank-already-created: "&cThe specified rank has already been created"
+rank-prefix-updated: "&aUpdated prefix to the specified rank"
+rank-suffix-updated: "&aUpdated suffix to the specified rank"
+rank-color-updated: "&aUpdated color to the specified rank"
+rank-color-not-valid: "&cThe specified rank color is not a valid color"
+rank-weight-updated: "&aUpdated weight to the specified rank"
+rank-added-permission: "&aAdded permission to the specified rank"
+rank-removed-permission: "&cRemoved permission from the specified rank"
+rank-already-has-permission: "&aThe specified rank already has the specified permission"
+rank-does-not-have-permission: "&cThe specified rank does not have the specified permission"
+rank-added-inheritance: "&aAdded inheritance to the specified rank"
+rank-removed-inheritance: "&cRemoved inheritance from the specified rank"
+rank-already-has-inheritance: "&aThe specified rank already has the specified inheritance"
+rank-does-not-have-inheritance: "&cThe specified rank does not have the specified inheritance"
+rank-name-updated: "&aUpdated name to the specified rank"
+rank-does-not-exist: "&cThe specified rank does not already exist"
+
+# Grants messages
+grant-added: "&aA (rank) &agrant has been added to you for &a&l(duration)"
+grant-added-to-player: "&aYou have added a (rank) &agrant to &a&l(player)"
+grant-expired: "&cYour (rank) &cgrant has expired"
+
+# Punishments permission nodes
+warn-permission-node: "moderation.warn"
+kick-permission-node: "moderation.kick"
+mute-permission-node: "moderation.mute"
+tempmute-permission-node: "moderation.tempmute"
+ban-permission-node: "moderation.ban"
+tempban-permission-node: "moderation.tempban"
+blacklist-permission-node: "moderation.blacklist"
+history-permission-node: "moderation.history"
+unmute-permission-node: "moderation.unmute"
+unban-permission-node: "moderation.unban"
+
+# Punishments usage messages
+warn-usage: "&cUsage: /warn <player> <reason>"
+kick-usage: "&cUsage: /kick <player> <reason>"
+mute-usage: "&cUsage: /mute <player> <reason>"
+tempmute-usage: "&cUsage: /tempmute <player> <duration> <reason>"
+ban-usage: "&cUsage: /ban <player> <reason>"
+tempban-usage: "&cUsage: /tempban <player> <duration> <reason>"
+blacklist-usage: "&cUsage: /blacklist <player> <reason>"
+history-usage: "&cUsage: /history <player>"
+unmute-usage: "&cUsage: /unmute <player> <reason>"
+unban-usage: "&cUsage: /unban <player> <reason>"
+
+# Punishments muted messages
+muted-already: "&cThe specified player is already muted"
+player-not-muted: "&cThe specified player is not already muted"
+player-unmuted: "&aThe specified player has been unmuted"
+
+# Punishments banned messages
+banned-already: "&cThe specified player is already banned"
+player-not-banned: "&cThe specified player is not already banned"
+player-unbanned: "&aThe specified player has been unbanned"
